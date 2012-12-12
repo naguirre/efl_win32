@@ -138,7 +138,7 @@ function build_packages ()
 check_deps
 
 if [ ! -f efl_dep.zip ]; then
-    wget http://www.maths.univ-evry.fr/pages_perso/vtorri/files/efl_dep.zip &> /dev/null
+    wget http://dev.enlightenment.fr/~doursse/efl_dep.zip &> /dev/null
 fi
 
 rm -rf $base/package/

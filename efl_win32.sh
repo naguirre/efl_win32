@@ -142,7 +142,6 @@ if [ ! -f efl_dep.zip ]; then
 fi
 
 rm -rf $base/package/
-rm -rf $base/src/
 mkdir -p $base/package
 cd $base/package
 unzip ../efl_dep.zip &> /dev/null

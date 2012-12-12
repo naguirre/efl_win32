@@ -31,9 +31,9 @@ packages_opt=( ["evil"]="--with-windows-version=xp"
 	       ["ecore"]="--disable-glib --enable-win32-threads=yes --disable-gnutls --disable-openssl"
 	       ["embryo"]=""
 	       ["eio"]="--enable-win32-threads=yes"
-	       ["edje"]="--disable-edje-recc --enable-build-examples --with-edje-cc=$base/package/bin/edje_cc"
+	       ["edje"]="--disable-edje-recc -disable-build-examples --with-edje-cc=$base/package/bin/edje_cc"
 	       ["efreet"]=""
-	       ["elementary"]="--with-edje-cc=/home/torri/local/e17/bin/edje_cc --with-eet-eet=/home/torri/local/e17/bin/eet --enable-win32-threads=yes -enable-build-examples"
+	       ["elementary"]="--with-edje-cc=/usr/bin/edje_cc --with-eet-eet=/usr/bin/eet --enable-win32-threads=yes --disable-build-examples"
              )
 
 function check_deps ()

@@ -24,7 +24,7 @@ packages="evil eina eet evas ecore embryo eio edje efreet elementary"
 
 
 declare -A packages_opt
-packages_opt=( ["evil"]="--with-windows-version=win"
+packages_opt=( ["evil"]="--with-windows-version=xp"
                ["eina"]=""
 	       ["eet"]="--disable-gnutls --disable-openssl"
 	       ["evas"]="--disable-async-preload --disable-async-render --disable-direct3d"

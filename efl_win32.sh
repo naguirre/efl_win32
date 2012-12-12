@@ -7,7 +7,7 @@ base=`pwd`
 export TARGET=i686-w64-mingw32
 export MINGW_PREFIX="$base/package/"
 
-export CPPFLAGS="-I$MINGW_PREFIX/include -I$MINGW_PREFIX/include/evil-1"
+export CPPFLAGS="-I$MINGW_PREFIX/include -I$MINGW_PREFIX/include/evil-1 -I$MINGW_PREFIX/include/freetype2"
 export CXXFLAGS="$CFLAGS"
 export LDFLAGS="$LDFLAGS -L$MINGW_PREFIX/lib"
 export PATH="$HOME/local/opt/mingw-w64-x86_32/bin:$MINGW_PREFIX/bin:$PATH"

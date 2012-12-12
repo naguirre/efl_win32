@@ -19,7 +19,7 @@ update="no"
 packaging="no"
 revision="1.7.3"
 
-deps_bin="autoreconf automake g++ gcc libtool pkg-config"
+deps_bin="autoreconf automake g++ gcc libtool pkg-config edje_cc eet"
 packages="evil eina eet evas ecore embryo eio edje efreet elementary"
 
 
